@@ -1,0 +1,19 @@
+Package: pipoft
+Version: 0.0.0.1200
+Date: 2021-05-07
+Title: An R Interface to an Expression Array-Based Evaluation of Off-Target Binding and Side Effects of Pyrrole-Imidazole Polyamides 
+Description: pipoft ('PI Polyamide OFf-Target binding') is an expression microarray-based method to evaluate the possible off-target effects (and possible side effects). This package provides an R-based hook to some of the original codes written in R and Perl. Please visit github.com/jlincbio/pipoft/ for citations and more details. 
+Author: s@R: person("Jason", "Lin", email = "linjason@chiba-cc.jp", role = c("aut", "cre"))
+Depends: R (>= 3.4.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+Imports:
+	limma (>= 3.23.10),
+	data.table (>= 1.9.6),
+	stats,
+	ranger (>= 0.10.1),
+	gplots,
+	png,
+	grid

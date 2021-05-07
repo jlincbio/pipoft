@@ -1,0 +1,26 @@
+citHeader("Please cite the following paper if you use pipoft:")
+citEntry(
+	entry="article",
+	author = c(
+		person("Jason","Lin"),
+		person("Sakthisri","Krishnamurthy"),
+		person("Hiroyuki", "Yoda"),
+		person("Yoshinao", "Shinozaki"),
+		person("Takayoshi", "Watanabe"),
+		person("Nobuko", "Koshikawa"),
+		person("Atsushi", "Takatori"),
+		person("Paul", "Horton"),
+		person("Hiroki", "Nagase")),
+	title =
+	"Estimating genome-wide off-target effects for pyrrole-imidazole polyamide binding by a pathway-based expression profiling approach",
+	journal = "PLoS ONE",
+	year = 2019,
+	volume = 14,
+	number = 4,
+	doi = "10.1371/journal.pone.0215247",
+	pages = "e0215247",
+	textVersion = 
+	"Lin J, Krishnamurthy S, Yoda H, Shinozaki Y, Watanabe T, Koshikawa N, Takatori A, Horton P, Nagase H. Estimating genome-wide off-target effects for pyrrole-imidazole polyamide binding by a pathway-based expression profiling approach. PLoS ONE 14(4): e0215247, 2019. doi: 10.1371/journal.pone.0215247"
+)
+
+citFooter("--- pipoft by J. Lin: version", packageVersion("pipoft"), "---")
